@@ -1,13 +1,16 @@
 <span style="font-size:2em; font-weight: bold;">API RTU Setup</span>
 
-Last modified: Feb. 01, 2024
+Last modified: April 27, 2024
 
 # Model: USR-N520
 
 ### Application Case
 
-> - Modbus TCP/RTU gateway.
-> - Ethernet masters with serial slaves.
+> Port1: Virtual serial port
+
+> Port2: Modbus TCP/RTU gateway.
+>> - Ethernet: Modbus TCP server (slave)
+>> - Serial: Modbus RTU master
 
 ## Table of Contents
 
@@ -53,12 +56,11 @@ Last modified: Feb. 01, 2024
 >
 >> #### Socket
 >>> Socket A
->>>> - Working Mode: TCP Server / ModbusTCP
+>>>> - Working Mode: TCP Server / None
 >>>> - Maximum Sockets supported: 16 / Exceeding Maximum: KICK
->>>> - Local Port Number: 501
+>>>> - Local Port Number: **23**
 >>>> - PRINT: OFF
->>>> - Modbus Poll [v] / Response Timeout: 2000
->>>> - Modbus TCP Exception [v]
+>>>> - Modbus Poll [ ] / Response Timeout: 2000
 >>>> - Enable Net Heartbeat [ ]
 >
 >>> Socket B
@@ -81,9 +83,9 @@ Last modified: Feb. 01, 2024
 >>> Socket A
 >>>> - Working Mode: TCP Server / ModbusTCP
 >>>> - Maximum Sockets supported: 16 / Exceeding Maximum: KICK
->>>> - Local Port Number: 502
+>>>> - Local Port Number: **502**
 >>>> - PRINT: OFF
->>>> - Modbus Poll [v] / Response Timeout: 2000
+>>>> - Modbus Poll [ ] / Response Timeout: 2000
 >>>> - Modbus TCP Exception [v]
 >>>> - Enable Net Heartbeat [ ]
 >

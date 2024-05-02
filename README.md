@@ -1,6 +1,6 @@
 <span style="font-size:2em; font-weight: bold;">API RTU Setup</span>
 
-Last modified: April 27, 2024
+Last modified: May 2, 2024
 
 # Model: USR-N520
 
@@ -36,7 +36,7 @@ Last modified: April 27, 2024
 >- IP Address: 192.168.0.7
 >- Subnet mask: 255.255.255.0
 >- Gateway: 192.168.0.1
->- Preferred DNS Server: 192.168.63.1
+>- Preferred DNS Server: 168.126.63.1
 >- Alternative DNS Server: 223.5.5.5
 
 ## Port

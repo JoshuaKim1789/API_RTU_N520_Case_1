@@ -1,6 +1,6 @@
 <span style="font-size:2em; font-weight: bold;">API RTU Setup</span>
 
-Last modified: May 2, 2024
+Last modified: May 5, 2024
 
 # Model: USR-N520
 
@@ -116,7 +116,7 @@ Last modified: May 2, 2024
 
 ## System
 > ### System Setting
->> - Model Name: USR-N510
+>> - Model Name: USR-N520
 >> - Websocket Port: 6432
 >> - Websocket Direction: UART1
 >> - Webserver Port: 80

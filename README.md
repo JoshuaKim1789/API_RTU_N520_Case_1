@@ -1,6 +1,6 @@
 <span style="font-size:2em; font-weight: bold;">API RTU Setup</span>
 
-Last modified: May 5, 2024
+Last modified: July 15, 2024
 
 # Model: USR-N520
 
@@ -25,7 +25,7 @@ Last modified: May 5, 2024
 
 ## Status
 - Model Name: USR-N520
-- Firmware Version: V2.0.8
+- Firmware Version: V2.0.19
 - Type: H7
 
 ## Network
@@ -57,7 +57,7 @@ Last modified: May 5, 2024
 >> #### Socket
 >>> Socket A
 >>>> - Working Mode: TCP Server / None
->>>> - Maximum Sockets supported: 16 / Exceeding Maximum: KICK
+>>>> - Maximum Sockets supported: 8 / Exceeding Maximum: KICK
 >>>> - Local Port Number: **23**
 >>>> - PRINT: OFF
 >>>> - Modbus Poll [ ] / Response Timeout: 2000
@@ -82,7 +82,7 @@ Last modified: May 5, 2024
 >> #### Socket
 >>> Socket A
 >>>> - Working Mode: TCP Server / ModbusTCP
->>>> - Maximum Sockets supported: 16 / Exceeding Maximum: KICK
+>>>> - Maximum Sockets supported: 8 / Exceeding Maximum: KICK
 >>>> - Local Port Number: **502**
 >>>> - PRINT: OFF
 >>>> - Modbus Poll [ ] / Response Timeout: 2000
@@ -122,13 +122,13 @@ Last modified: May 5, 2024
 >> - Webserver Port: 80
 >> - User Name: admin
 >> - UART Cache: OFF
->> - Restarting Without Data: 0
+>> - Restarting Without Data: **3600**
 >> - SNMP: OFF
 >> - Telnet: OFF
 >> - NTP: ON
 >> - NTP Server Address: cn.ntp.org.cn
 >> - NTP Timezone Setting: UTC+9
->> - 485 Anit-Collision: ON
+>> - 485 Anit-Collision: **ON**
 >> - 485-Idle Time: 10
 
 > ### Management
